@@ -1,0 +1,3 @@
+<?php //App%255CController%255CStripe%255CStripeStripeSuccessPaymentController
+
+return [PHP_INT_MAX, []];

@@ -1,0 +1,3 @@
+<?php //App%255CEntity%255CSearchProduct%2524maxPrice
+
+return [PHP_INT_MAX, []];

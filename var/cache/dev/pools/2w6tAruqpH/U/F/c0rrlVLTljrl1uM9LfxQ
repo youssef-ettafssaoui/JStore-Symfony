@@ -1,0 +1,3 @@
+<?php //App%255CEntity%255CSearchProduct%2523setTags
+
+return [PHP_INT_MAX, []];

@@ -1,20 +1,50 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello BlogController!{% endblock %}
+{% block title %} AgriExpress Shopping !{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+ {{ include("partials/title_section.html.twig", {'name':'About Us Page'}) }}
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ '/Users/mac/Desktop/AppSymfony/jstore/src/Controller/BlogController.php'|file_link(0) }}">src/Controller/BlogController.php</a></code></li>
-        <li>Your template at <code><a href="{{ '/Users/mac/Desktop/AppSymfony/jstore/templates/blog/index.html.twig'|file_link(0) }}">templates/blog/index.html.twig</a></code></li>
-    </ul>
+ <div class="section pb_70">
+	<div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-md-6">
+            	<div class="contact_wrap contact_style3">
+                    <div class="contact_icon">
+                        <i class="linearicons-map2"></i>
+                    </div>
+                    <div class="contact_text">
+                        <span>Delivery</span>
+                        <p>All orders placed until 1 p.m. will be shipped the same day. Free fees from 19$</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6">
+            	<div class="contact_wrap contact_style3">
+                    <div class="contact_icon">
+                        <i class="linearicons-telephone"></i>
+                    </div>
+                    <div class="contact_text">
+                        <span>Opening time</span>
+                        <p>Monday - Friday: 9 a.m.-12.30 p.m. / 2 p.m.-7 p.m.</p>
+                        <p>Saturday: 9 a.m.-12 p.m.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6">
+            	<div class="contact_wrap contact_style3">
+                    <div class="contact_icon">
+                        <i class="linearicons-tablet2"></i>
+                    </div>
+                    <div class="contact_text">
+                        <span>Payment</span>
+                        <p>Payment on our shop secured</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
 {% endblock %}

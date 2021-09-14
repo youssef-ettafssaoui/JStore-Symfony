@@ -13,29 +13,17 @@
                 <div class="col-md-6">
                     <div class="d-flex align-items-center justify-content-center justify-content-md-start">
                         <div class="lng_dropdown mr-2">
-                            <select name="countries" class="custome_select">
-                                <option value='en' data-image="/assets/images/eng.png" data-title="English">Anglais</option>
-                                <option value='fn' data-image="/assets/images/fn.png" data-title="France">France</option>
-                                <option value='us' data-image="/assets/images/us.png" data-title="United States">États Unis</option>
-                            </select>
+
                         </div>
                         <div class="mr-3">
-                            <select name="countries" class="custome_select">
-                                <option value='USD' data-title="USD">USD</option>
-                                <option value='EUR' data-title="EUR">EUR</option>
-                                <option value='GBR' data-title="GBR">GBR</option>
-                            </select>
+
                         </div>
-                        <ul class="contact_detail text-center text-lg-left">
-                            <li><i class="ti-mobile"></i><span>000-000-000</span></li>
-                        </ul>
+
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="text-center text-md-right">
                            <ul class="header_list">
-                            <li><a href=""><i class="ti-control-shuffle"></i><span>Comparer</span></a></li>
-                            <li><a href=""><i class="ti-heart"></i><span>Wishlist</span></a></li>
                                 {% if app.user %}
                                     <li><a href="{{path('account')}}"><i class="ti-user"></i><span>Account</span></a></li>
                                     <li><a href="{{path('app_logout')}}"><i class="ti-lock"></i><span>Logout</span></a></li>
@@ -64,20 +52,8 @@
                         <li class="dropdown">
                             <a  class="nav-link" href="{{path('home')}}">Home</a>   
                         </li>
-                        <li class="dropdown">
-                            <a class=" nav-link" href="#">Pages</a>
-                        </li>
-                        <li class="">
-                            <a class=" nav-link" href="#">Products</a>
-                           
-                        </li>
-                        <li class="dropdown">
-                            <a class=" nav-link" href="#">Blog</a>
-                            
-                        </li>
                         <li class="">
                             <a class=" nav-link" href="{{path('shop')}}">Shop</a>
-                            
                         </li>
                         <li><a class="nav-link nav_item" href="{{path('contact_new')}}">Contact Us</a></li> 
                     </ul>
